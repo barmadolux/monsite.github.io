@@ -1,0 +1,95 @@
+.container-fluid
+{
+    background-color: grey;
+}
+a.navbar-brand
+{
+    font-weight: bold;
+    margin-left: 30px;
+}
+nav.navbar
+{
+    border: 1px solid black;
+}
+div.nav
+{
+    
+    display: none;
+}
+h1
+{
+   text-align: center;
+   margin: 20px;
+}
+ul
+{ 
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    background-color :rgb(153, 112, 144); 
+}
+ul li 
+{
+    border: 1px solid black;
+    text-align: center;
+    
+}
+ul li a
+{
+    color: black;
+    font-weight: bold;
+}
+h3
+{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 15px;
+}
+section
+{
+    background-color: gray;
+    border: 20px solid white;
+
+}
+p
+{
+    padding: 20px;
+}
+nav.navbar
+{
+    background-color: indianred;
+}
+button.navbar-toggler
+{
+    background-color :grey; 
+}
+
+@media(min-width:768px)
+{
+    button{
+        display: none;
+    }
+    
+}
+@media(max-width:767px)
+{
+    div.nav
+    {
+        display: contents;
+    }
+    h1
+    {
+        font-size: 1.9rem;
+    }
+    h3 
+    {
+        font-size: large;
+    }
+    section
+    {
+        background-color: gray;
+        border-right: 50px solid white;
+        border-left: 50px solid white;
+
+    }
+}
